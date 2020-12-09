@@ -1,9 +1,9 @@
 {
-  "name": "project1",
+  "name": "spacexinfotest",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node main.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -26,7 +26,7 @@
     "@angular/router": "~8.2.0",
     "@nguniversal/express-engine": "^8.2.6",
     "@nguniversal/module-map-ngfactory-loader": "v8.2.6",
-    "express": "^4.15.2",
+    "express": "^4.17.1",
     "ngx-spinner": "^10.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
