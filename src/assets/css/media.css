@@ -1,0 +1,45 @@
+@media only screen and (max-width: 700px) {
+    body {
+      background-color: white !important;
+    }
+    .parent{
+        display: block !important;
+    }
+    .filters{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .item{
+        width: 100% !important;
+        text-align: center;
+    }
+    .info{
+        width: 100% !important;
+    }
+    .item_id{
+        list-style-type: none !important;
+    }
+    .success_launch{
+        display: block !important;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .filters{
+        width: 50% !important;
+        height: 100vh !important;
+    }
+    .item{
+        width: 50% !important;
+        text-align: center;
+    }
+    .info{
+        width: 50% !important;
+    }
+    .item_id{
+        list-style-type: none !important;
+    }
+    .success_launch{
+        display: block !important;
+    }
+  }
